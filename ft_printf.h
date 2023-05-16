@@ -6,7 +6,7 @@
 /*   By: sbarbero <sbarbero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 21:25:39 by sbarbero          #+#    #+#             */
-/*   Updated: 2023/05/15 22:03:31 by sbarbero         ###   ########.fr       */
+/*   Updated: 2023/05/17 00:19:57 by sbarbero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,22 @@
 
 /* Include libraries */
 
+# include <stdlib.h>
 # include <stdarg.h>
 # include <unistd.h>
 
-int	ft_printf(char const *str, ...);
+int		ft_printf(char const *str, ...);
 
-int	ft_putchar(char c);
+int		ft_putchar(char c);
 
-int	ft_putstr(char *str);
+int		ft_putstr(char *str);
+
+int		ft_putptr(long unsigned int ptr);
+
+int		ft_puthexa(unsigned long long num, int capital);
+
+int		ft_putnbr(int nb);
+
+char	*ft_itoa(int n);
 
 #endif

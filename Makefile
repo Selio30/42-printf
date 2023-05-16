@@ -6,12 +6,12 @@
 #    By: sbarbero <sbarbero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/15 21:20:18 by sbarbero          #+#    #+#              #
-#    Updated: 2023/05/15 22:04:21 by sbarbero         ###   ########.fr        #
+#    Updated: 2023/05/17 00:15:50 by sbarbero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= libftprintf.a
-SOURCE	= ft_printf.c ft_putchar.c ft_putstr.c
+SOURCE	= ft_printf.c ft_put.c ft_putdec.c
 OBJECT	= $(SOURCE:.c=.o)
 
 FLAGS	= -Wall -Werror -Wextra
