@@ -6,7 +6,7 @@
 /*   By: sbarbero <sbarbero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 21:25:39 by sbarbero          #+#    #+#             */
-/*   Updated: 2023/05/17 00:19:57 by sbarbero         ###   ########.fr       */
+/*   Updated: 2023/05/17 20:05:36 by sbarbero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,9 @@ int		ft_puthexa(unsigned long long num, int capital);
 int		ft_putnbr(int nb);
 
 char	*ft_itoa(int n);
+
+int		ft_putnbr2(unsigned int nb);
+
+char	*ft_itoa2(unsigned int n);
 
 #endif
